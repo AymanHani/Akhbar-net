@@ -1,0 +1,144 @@
+.html-content{
+    direction: rtl;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+/*.div1 {
+    width: 1100px;
+    height: 50px;
+    border: 1px solid greenyellow;
+}
+  
+.div2 {
+    width: 1000px;
+    height: 1px;
+    padding: 50px;
+    border: 1px solid orange;
+}*/
+.header{
+    background-color: #db5b1c;
+    min-height: 50px;
+    border: 5px solid white;
+    padding: 20px 70px 20px 70px;
+}
+.Part{
+    background-color: #db5b1c;
+    height: 100px;
+    font-weight: bold;
+    margin: 1%;
+}
+.Akhbar{
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+    font-family: 'KYTC';
+    font-size: 50px;
+    padding-bottom: 2;
+}
+@font-face{
+    font-family: 'KYTC';
+    src: url(../Fonts/ArefRuqaa-Bold.ttf);
+}
+a:hover{
+    color:#00000E;
+}
+a {
+    color: #00000E;
+  }
+a:visited{
+    color: #fff;
+}
+a:active{
+    text-decoration: underline red;
+    cursor: pointer;
+}
+.div1{
+    text-align: right;
+}
+.div2{
+    text-align: center;
+}
+.main{
+    background-image: url(../Image/Background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+    padding: 1cm;
+    background-color:rgba(255, 255, 255, 0.9)
+}
+.Input{
+    height: 40px;
+    width: 800px;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: #EEE solid 1px;
+    outline: none;
+    border-color: #db5b1c;
+    margin: 50px;
+}
+.Button{
+    margin-right: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    background-color: #db5b1c;
+    font-weight: bold;
+    color: white;
+    border: none;
+    font-size: 30px;
+    height: 90px;
+    width: 150px;
+}
+.Button:hover{
+    cursor: pointer;
+    background-color: rgba(219, 91, 28, 0.5);
+}
+.content{
+    padding: 1.0%;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 50px;
+    font-family: 'KYTC';
+    margin-bottom: 1%;
+}
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:link{
+    color: #fff;
+    font-weight: bold;
+    margin: 1cm;
+}
+a:hover {
+    cursor: pointer;
+}
+a:visited {
+    color: #00000E;
+    text-decoration: underline;
+}
